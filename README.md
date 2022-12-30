@@ -1,6 +1,6 @@
 # CS50
 
-## > resources 
+> ## resources 
 >> [libcs50 github](https://github.com/cs50/libcs50) <br>
 >> [simplified C lang manual by cs50.io](https://manual.cs50.io/) <br>
 >> [cs50 docs](https://cs50.readthedocs.io/libraries/cs50/c/) <br>
