@@ -2,8 +2,8 @@
 
 ## Compiler command 
 ``` bash
-clang cs50.c -lcs50 -o cs50
-clang filname.c -library_name -o filename_to_be_compiled
+$ clang cs50.c -lcs50 -o cs50
+$ clang filname.c -library_name -o filename_to_be_compiled
 ```
 
 > ## resources 
