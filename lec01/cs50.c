@@ -2,7 +2,7 @@
 #include <cs50.h>
 
 int main(void) {
-     string first_name = get_string("What's your name? ");
-     string second_name = get_string("What's your second name? ");
-     printf("Howdy, %s %s\n", first_name, second_name);
+     string answer = get_string("What's your name? ");
+     string a_answer = get_string("What's your age? ");
+     printf("Howdy, %s and you're %s!\n", answer, a_answer);
 }
