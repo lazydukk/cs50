@@ -23,7 +23,6 @@
 	// "remoteUser": "root"
     // ... 
 		"extensions" : [
-		"Catppuccin.catppuccin-vsc",
 		"eamodio.gitlens",
 		"esbenp.prettier-vscode",
 		"GitHub.codespaces",
