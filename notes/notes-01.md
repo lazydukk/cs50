@@ -1,13 +1,22 @@
 # CS50 Lecture 01
 
-## Compiler command 
-``` bash
-$ clang cs50.c -lcs50 -o cs50
-$ clang filname.c -library_name -o filename_to_be_compiled
-```
+## Notes on <b>Week 01</b>
 
-> ## resources 
->> [cs50.h](https://github.com/cs50/libcs50) <br>
->> [simplified C lang manual by cs50.io](https://manual.cs50.io/) <br>
->> [cs50 docs](https://cs50.readthedocs.io/libraries/cs50/c/) <br>
->> [libcs50 won't load *answer* ](https://cs50.stackexchange.com/questions/1483/undefined-reference-to-getstring) <br>
+#### Breif summary 
+
+01. Hello World :
+    - printing outputs from the header file from `stdio.h`
+02. Libraries :
+    - Using `cs50.h` and using the [cs50 manual](man.cs50.io)
+03. Conditionals :
+    - Using `if`, `else` and `else if`;
+    - To show <b>eqaulity</b> use --> `==` 
+    - To show <b>or</b> use --> '||' then the arguemnt
+    - Differnce versus *strings* and *char*
+        - Use <b>" " </b> for strings
+        - use <b>' '</b> for cahr
+04. Loops :
+    - While loops
+        - Just writing arguments seperately 
+    - For Loops
+        - Writing arguemtns in a single line
