@@ -20,3 +20,4 @@
         - Just writing arguments seperately 
     - For Loops
         - Writing arguemtns in a single line
+    - To add `bool` values use <b>`<stdbool.h>`</b> || <b><cs50.h></b> already has those included. 
