@@ -21,3 +21,6 @@
     - For Loops
         - Writing arguemtns in a single line
     - To add `bool` values use <b>`<stdbool.h>`</b> || <b><cs50.h></b> already has those included. 
+05. Nested Loops && Do While Loops : (../weeks/mario.c)
+    - Using </b>Do While Loops</b> to stop code repetition 
+    - Using <b>Nested Loops</b> to write loops inside a loop
