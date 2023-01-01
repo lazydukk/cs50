@@ -13,8 +13,7 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": [
-		"curl -s https://packagecloud.io/install/repositories/cs50/repo/script.deb.sh | sudo bash",
-		"sudo apt-get install libcs50"
+		"curl -s https://packagecloud.io/install/repositories/cs50/repo/script.deb.sh | sudo bash && sudo apt-get install libcs50"
 	],
 
 	// Configure tool-specific properties.
