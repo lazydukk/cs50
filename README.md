@@ -10,7 +10,6 @@
  05. KUDOS ig. 😈
  06. may choose whatever theme and font as you prefer. (catppuccin got sm pastel vibe)
 <br>
-
 ---
 
 ## Notes
