@@ -3,9 +3,7 @@
 
 // Configured by lazydukk https://github.com/lazydukk/ for lazydukk/cs50 codespace
 {
-	"name": "Ubuntu",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/base:jammy",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
@@ -40,8 +38,7 @@
 		"PKief.material-icon-theme",
 		"twxs.cmake",
 		"VisualStudioExptTeam.intellicode-api-usage-examples",
-		"VisualStudioExptTeam.vscodeintellicode",
-		"WakaTime.vscode-wakatime"
+		"VisualStudioExptTeam.vscodeintellicode"
 	]
     // .. 	
 }

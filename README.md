@@ -1,1 +1,4 @@
-# CS50 😁
+# CS50 
+
+.devcontainer still in development
+
