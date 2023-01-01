@@ -7,3 +7,4 @@
 03. install <b>cs50.h</b> using this command `curl -s https://packagecloud.io/install/repositories/cs50/repo/script.deb.sh | sudo bash && sudo apt-get install libcs50`
 04. then after installing restart the codespace.
 05. KUDOS ig. 😈
+06. may choose whatever theme and font as you prefer
