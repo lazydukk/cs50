@@ -24,3 +24,5 @@
 05. Nested Loops && Do While Loops : (../weeks/mario.c)
     - Using </b>Do While Loops</b> to stop code repetition 
     - Using <b>Nested Loops</b> to write loops inside a loop
+06. [mario.c](../weeks/01/mario.c) :
+    - Putting all the arguemnts in the same line for more better code and more standard way
