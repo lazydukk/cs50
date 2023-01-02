@@ -1,6 +1,19 @@
 #include <stdio.h>
 #include <cs50.h>
 
+// To show that the function is declared 
+int get_size(void);
+void print_grid(int size);
+
+
+int main(void) 
+{
+    int n = get_size();
+
+    print_grid(n);
+}
+
+
 // Custom functions
 int get_size(void)
 {
@@ -24,12 +37,4 @@ void print_grid(int size)
         }
         printf("\n");
     }
-}
-
-
-int main(void) 
-{
-    int n = get_size();
-
-    print_grid(n);
 }
