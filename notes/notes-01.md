@@ -28,3 +28,5 @@
     - Putting all the arguemnts in the same line for more better code and more standard way
 07. [mario2.c](../weeks/01/mario2.c) :
     - Abstraction imlimented in the code though it does the same thing as the [mario.c](../weeks/01/mario.
+08. Integer overflow && Floating point imprecision
+    - more on how code and aerithmetic differs (try to find more info...)
