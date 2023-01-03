@@ -3,10 +3,17 @@
 
 int main(void)
 {
-    // Add two numbers
+    // Add two numbers; long means to get more numbers and %li is the format for it
 
-    int x = get_int("Whats x: ");
-    int y = get_int("Whats y: ");
+    long x = get_long("Whats x: ");
+    long y = get_long("Whats y: ");
 
-    printf("%i\n", x + y);
+    printf("%li\n", x + y);
+
+    // Floats
+
+    float i = get_float("Whats i: ");
+    float j = get_float("Whats j: ");
+
+    printf("%.20f\n", i / j);
 }
