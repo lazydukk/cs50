@@ -5,33 +5,34 @@
 int main(void)
 {
     // get the star_pop && end_pop values
-   int start_pop;
-    do
-    {
-        start_pop = get_int("Start size: ");
-    } while (8 >= start_pop);
+    int start;
+    int end;
+    int year = 0;
 
-    int end_pop;
+    // start population number
     do
     {
-        end_pop = get_int("End size: ");
+        start = get_int("Start size: ");
+    } while (8 >= start);
+
+    // end population number
+    do
+    {
+        end = get_int("End size: ");
     } 
-    while (start_pop > end_pop);
+    while (start > end);
 
-    // Counting alive pop
-    int alive_pop = start_pop + (start_pop / 3) - (start_pop / 4);
-    printf("Currently alive: %i \n", alive_pop);
-
-    int time;
-    int years;
-    do
+    // time that will take
+    do 
     {
-        int years = time++;
+        start = start + (start / 3) - (start / 4);
+        year++;
     }
-    while(alive_pop > end_pop);
-
-    printf("Years: %i \n", years);
+    while (start < end);
     
+    // displaying out 
+    printf("Years: %i \n", year);
+
     
 
 
@@ -39,10 +40,11 @@ int main(void)
 
 
 
-    return start_pop;
-    return end_pop;
-    return years;
+    return start;
+    return end;
+    return year;
 }
+
 
 
 
