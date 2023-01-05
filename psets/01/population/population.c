@@ -3,15 +3,13 @@
 
 int size(void);
 
+
 int main(void)
 {
     // global variables
-    int start;
-    int end;
     // TODO: Prompt for start size ✅
     // TODO: Prompt for end size ✅
     size();
-
     // TODO: Calculate number of years until we reach threshold
     // TODO: Print number of years
 }
@@ -37,6 +35,8 @@ int size(void)
     } 
     while (start > end);
 
+
     return start;
     return end;
 }
+
