@@ -13,7 +13,8 @@ int main(void)
     do
     {
         start = get_int("Start size: ");
-    } while (8 >= start);
+    } 
+    while (8 >= start);
 
     // end population number
     do
@@ -32,13 +33,6 @@ int main(void)
     
     // displaying out 
     printf("Years: %i \n", year);
-
-    
-
-
-
-
-
 
     return start;
     return end;
