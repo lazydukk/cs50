@@ -1,28 +1,5 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
-
-// Configured by lazydukk https://github.com/lazydukk/ for lazydukk/cs50 codespace
-{
-	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-
-	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
-
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
-
-	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": [
-		"curl -s https://packagecloud.io/install/repositories/cs50/repo/script.deb.sh | sudo bash && sudo apt-get install libcs50"
-	],
-
-	// Configure tool-specific properties.
-	// "customizations": {},
-
-	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "root"
-    // ... 
-		"extensions" : [
+// some part of this code is taken as a reference from cs50 .devcontainer
+{		"extensions" : [
 		"eamodio.gitlens",
 		"esbenp.prettier-vscode",
 		"GitHub.codespaces",
@@ -33,9 +10,120 @@
 		"ms-vscode.cpptools-extension-pack",
 		"ms-vscode.cpptools-themes",
 		"PKief.material-icon-theme",
+		"Catppuccin.catppuccin-vsc",
 		"twxs.cmake",
 		"VisualStudioExptTeam.intellicode-api-usage-examples",
-		"VisualStudioExptTeam.vscodeintellicode"
-	]
-    // .. 	
+		"VisualStudioExptTeam.vscodeintellicode",
+		"/opt/cs50/extensions/cs50-0.0.1.vsix",
+        "/opt/cs50/extensions/phpliteadmin-0.0.1.vsix",
+        "cs50.ddb50",
+        "cs50.extension-uninstaller",
+        "cs50.lab50",
+        "cs50.markdown50",
+        "cs50.vscode-presentation-mode",
+        "ms-python.python",
+        "ms-vscode.cpptools",
+        "ms-vscode.hexeditor",
+        "ms-vsliveshare.vsliveshare-pack",
+        "redhat.java",
+        "tomoki1207.pdf",
+        "vscjava.vscode-java-debug",
+        "vsls-contrib.gitdoc"
+	],
+    "forwardPorts": [
+        5000,
+        5900,
+        6081,
+        8080,
+        8082
+    ],
+	"image": "ghcr.io/cs50/codespace:4b1dccff0873c0876566ef9fb0c7373aa654da39",
+    "postCreateCommand": "/opt/cs50/bin/postCreateCommand",
+    "settings": {
+        "C_Cpp.autocomplete": "default",
+        "C_Cpp.codeFolding": "disabled",
+        "C_Cpp.debugShortcut": false,
+        "C_Cpp.dimInactiveRegions": false,
+        "C_Cpp.doxygen.generateOnType": false,
+        "C_Cpp.enhancedColorization": "enabled",
+        "C_Cpp.errorSquiggles": "enabled",
+        "breadcrumbs.enabled": false,
+        "editor.autoClosingQuotes": "never",
+        "editor.colorDecorators": false,
+        "editor.emptySelectionClipboard": false,
+        "editor.folding": false,
+        "editor.foldingHighlight": false,
+        "editor.guides.indentation": false,
+        "editor.hover.enabled": false,
+        "editor.lightbulb.enabled": false,
+        "editor.matchBrackets": "never",
+        "editor.minimap.enabled": false,
+        "editor.occurrencesHighlight": false,
+        "editor.parameterHints.enabled": false,
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "other": "on",
+            "strings": "on"
+        },
+		"files.autoSave": "afterDelay",
+        "files.exclude": {
+            "**/.*": true
+        },
+		"files.watcherExclude": {
+            "**/.git/objects/**": true,
+            "**/.git/subtree-cache/**": true,
+            "**/node_modules/*/**": true
+        },
+		"git.autofetch": true,
+        "git.decorations.enabled": false,
+        "git.terminalAuthentication": true,
+        "gitdoc.autoPull": "off",
+        "gitdoc.commitMessageFormat": "ccc, LLL d, kkkk, h:mm a ZZ",
+        "gitdoc.commitValidationLevel": "none",
+        "gitdoc.enabled": true,
+        "gitdoc.pullOnOpen": false,
+        "github.codespaces.devcontainerChangedNotificationStyle": "none",
+        "github.gitAuthentication": true,
+		"java.configuration.runtimes": [
+            {
+                "default": true,
+                "name": "JavaSE-18",
+                "path": "/opt/jdk-18.0.2.1"
+            }
+        ],
+		"java.debug.settings.enableRunDebugCodeLens": false,
+        "java.inlayHints.parameterNames.enabled": "none",
+        "java.server.launchMode": "Standard",
+        "javascript.suggest.enabled": false,
+        "javascript.validate.enable": false,
+        "problems.decorations.enabled": false,
+        "remote.otherPortsAttributes": {
+            "onAutoForward": "silent"
+        },
+        "scm.countBadge": "off",
+        "terminal.integrated.commandsToSkipShell": [
+            "workbench.action.toggleSidebarVisibility"
+        ],
+		"terminal.integrated.defaultProfile.linux": "bash",
+        "terminal.integrated.gpuAcceleration": "off",
+        "terminal.integrated.persistentSessionReviveProcess": "never",
+        "terminal.integrated.profiles.linux": {
+            "JavaScript Debug Terminal": null,
+            "bash": {
+                "args": [
+                    "--login"
+                ],
+                "icon": "terminal",
+                "path": "bash"
+            }
+        },
+        "terminal.integrated.sendKeybindingsToShell": true,
+        "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+        "terminal.integrated.shellIntegration.enabled": true,
+        "terminal.integrated.tabs.description": "${task}${separator}${local}",
+        "terminal.integrated.tabs.showActiveTerminal": "never",
+        "window.autoDetectColorScheme": true,
+        "window.commandCenter": false,
+		"workbench.iconTheme": "PKief.material-icon-theme",
+        "workbench.preferredDarkColorTheme": "Catppuccin.catppuccin-vsc"
 }
