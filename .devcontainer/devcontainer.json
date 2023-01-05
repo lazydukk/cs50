@@ -35,7 +35,10 @@
 		"PKief.material-icon-theme",
 		"twxs.cmake",
 		"VisualStudioExptTeam.intellicode-api-usage-examples",
-		"VisualStudioExptTeam.vscodeintellicode"
+		"VisualStudioExptTeam.vscodeintellicode",
+		"CS50.cs50",
+		"CS50.ddb50",
+		"CS50.lab50",
 	]
     // .. 	
 }
