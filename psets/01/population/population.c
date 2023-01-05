@@ -4,43 +4,29 @@
 
 int main(void)
 {
-    // global variables
-    int start;
-    int end;
-
-
-    size();
-    // TODO: Prompt for start size ✅
-    // TODO: Prompt for end size ✅
-    // get size
-
-
-}
-
-
-// get size
-int size(void)
-{
-    int start;
+    // get the star_pop && end_pop values
+   int start_pop;
     do
     {
-        start = get_int("Start size: ");
-    } while (8 >= start);
+        start_pop = get_int("Start size: ");
+    } while (8 >= start_pop);
 
-    int end;
+    int end_pop;
     do
     {
-        end = get_int("End size: ");
+        end_pop = get_int("End size: ");
     } 
-    while (start > end);
+    while (start_pop > end_pop);
 
+    // Counting alive pop
+    int alive_pop = start_pop + (start_pop / 3) - (start_pop / 4);
+    printf("Currently alive: %i \n", alive_pop);
 
-    return start;
-    return end;
+    return start_pop;
+    return end_pop;
 }
 
 
-// calculations
 
 
 
@@ -80,30 +66,3 @@ int size(void)
 
 
 
-
-
-
-
-
-/*
-// get size
-int size(void)
-{
-    int start;
-    do
-    {
-        start = get_int("Start size: ");
-    } while (8 >= start);
-
-    int end;
-    do
-    {
-        end = get_int("End size: ");
-    } 
-    while (start > end);
-
-
-    return start;
-    return end;
-}
-*/
