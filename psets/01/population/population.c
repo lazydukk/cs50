@@ -22,8 +22,26 @@ int main(void)
     int alive_pop = start_pop + (start_pop / 3) - (start_pop / 4);
     printf("Currently alive: %i \n", alive_pop);
 
+    int time;
+    int years;
+    do
+    {
+        int years = time++;
+    }
+    while(alive_pop > end_pop);
+
+    printf("Years: %i \n", years);
+    
+    
+
+
+
+
+
+
     return start_pop;
     return end_pop;
+    return years;
 }
 
 
