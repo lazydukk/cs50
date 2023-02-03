@@ -1,80 +1,51 @@
 #include <cs50.h>
 #include <stdio.h>
-
+#include <math.h>
 
 int main(void)
 {
-    // get the star_pop && end_pop values
+    // TODO: Prompt for start size
     int start;
-    int end;
-    int year = 0;
-
-    // start population number
     do
     {
         start = get_int("Start size: ");
-    } 
-    while (8 >= start);
+    }
+    while (start < 9);
 
-    // end population number
+
+    // TODO: Prompt for end size
+    int end;
     do
     {
-        end = get_int("End size: ");
-    } 
-    while (start > end);
-
-    // time that will take
-    do 
-    {
-        start = start + (start / 3) - (start / 4);
-        year++;
+        end = get_float("End size: ");
     }
-    while (start < end);
-    
-    // displaying out 
-    printf("Years: %i \n", year);
+    while (end < start);
 
-    return start;
-    return end;
-    return year;
+
+    // TODO: Calculate number of years until we reach threshold
+int year = 0;
+int n = start;
+int calc = 0;
+
+// prompt Year: 0 for same input vals
+if (start == end){
+    printf("Years: 0");
 }
 
+do{
+    n = round(n + (n / 3) - (n / 4));
+    year += 1;
+}
+while (n < end);
+printf("Years: %i", year);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    // TODO: Print number of years
+    /*
+    return start;
+    return end;
+    return years;
+    */
+}
 
 
 
