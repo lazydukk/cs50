@@ -1,7 +1,6 @@
 # CS50 Lecture 01
-###### (to view in [raw mode](https://raw.githubusercontent.com/lazydukk/cs50/main/2022/notes/notes-01.md))
 ## Notes on <b>Week 01</b>
-
+###### (to view in [raw mode](https://raw.githubusercontent.com/lazydukk/cs50/main/2022/notes/notes-01.md))
 #### Breif summary 
 
 01. Hello World :
