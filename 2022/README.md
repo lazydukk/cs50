@@ -14,4 +14,4 @@
 
 ## Notes
 
-* Navigate to : [summaries and what i learned 😇](notes/)
+* Navigate to : [summaries and what i learned 😇](https://lazydukk.github.io/cs50/2022/notes/notes-01)
