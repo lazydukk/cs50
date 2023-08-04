@@ -1,13 +1,8 @@
-# CS50x 2023
-
-## Resources
-
-- [week 01](https://lazydukk.github.io/cs50/2022/)
-- [2022/notes](https://lazydukk.github.io/cs50/2022/notes/notes-01)
+# CS50
 
 ## Current: CS50P
 
-#### to-do:
+#### to-do@CS50P:
 
 - [x] lecture 0
 - [ ] lecture 1
