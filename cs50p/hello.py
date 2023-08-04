@@ -5,5 +5,5 @@
 name = input("What's your name?: ").strip().title()
 first_name, last_name = name.split(" ")
 
-# f is a fstr 
+# f is a fstr AKA format string 
 print(f"howdy, {first_name}")
