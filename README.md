@@ -9,7 +9,8 @@
 
 #### to-do:
 
-- [x] lecture 1
+- [x] lecture 0
+- [ ] lecture 1
 - [ ] lecture 2
 - [ ] lecture 3
 - [ ] lecture 4
