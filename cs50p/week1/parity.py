@@ -8,9 +8,8 @@ def main():
 # uses a function as a boolean expression to pass a value
 def is_even(n):
     # modulo operato: to find the remainder
-    if n % 2 == 0:
-        return True
-    else:
-        return False
+    return True if n % 2 == 0 else False
 
+    # as in pythonic expression the above line can also be wriiten as follow:
+    # return n % 2 == 0
 main()
