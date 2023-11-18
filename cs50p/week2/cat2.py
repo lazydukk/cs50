@@ -1,3 +1,5 @@
+# Input Validation
+
 def main():
     number = get_number()
     meow(number)
