@@ -5,9 +5,9 @@
 #### to-do@CS50P:
 
 - [x] lecture 0
-- [ ] lecture 1
-- [ ] lecture 2
-- [ ] lecture 3
+- [x] lecture 1
+- [x] lecture 2
+- [/] lecture 3
 - [ ] lecture 4
 - [ ] lecture 5
 - [ ] lecture 6
